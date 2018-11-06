@@ -91,12 +91,12 @@ function start( ){
     return employeePackage;
   }
 
-  for (employee of employees) {
+  for (let employee of employees) {
     console.log(determineBonus(employee));
   }
   let outputEl = $('#displayEmployee');
   outputEl.empty();
-  for (employee of employeePackages) {
+  for (let employee of employeePackages) {
     outputEl.append('<li><span id="titles">Name: </span>' + employee.name + '</li><li><span id="titles">Bonus Percent: </span>' + employee.bonusPercent + '%</li><li><span id="titles">Total Compensation: </span>$' + employee.totalCompensation.toFixed(2) + '</li><li><span id="titles">Total Bonus: </span>$' + employee.totalBonus.toFixed(2) + '</li><br>')
   }
 }// end start function
