@@ -1,0 +1,36 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #283c86;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#titles {
+    font-weight: 700;
+    color: black;
+}
+
+li{
+    list-style: none;
+    color: #f2f2f2;
+}
+
+#container {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#calculate {
+    font-size: 1.25em;
+    margin-bottom: 18px;
+    border-radius: 10px;
+}
